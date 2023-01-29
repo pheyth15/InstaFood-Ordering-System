@@ -277,28 +277,26 @@ session_start(); //start temp session until logout/browser closed
 
             <div class="logo-image">
                 <img src="assets/img/banner-footer.png">
-             </div>
+             </div><br>
 
              <p class="footer-links">
                 <a href="index.php">Home</a>
                 ·
-                <a href="assets/src/pages/product.php">Product</a>
+                <a href="#">View Stores</a>
                 ·
-                <a href="assets/src/pages/contact.php">Contact</a>
+                <a href="#">My Bag</a>
                 ·
-                <a href="assets/src/pages/about.php">About</a>
-                ·
-                <a href="assets/src/pages/order.php">Order</a>
+                <a href="#">Order</a>
             </p>
 
-            <p class="footer-company-name">Pizzaringa © 2019</p>
+            <p class="footer-company-name">InstaFood © 2023</p>
 
             <div class="footer-icons">
 
-                <a href="https://www.facebook.com/PizzaMoringa"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/pizzaringa"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.instagram.com/pizzamoringa"><i class="fa fa-instagram"></i></a>
-                <a href="https://t.me/pizzaringa"><i class="fa fa-telegram"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-telegram"></i></a>
             </div>
 
         </div>
