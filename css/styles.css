@@ -154,7 +154,7 @@ hr {
 }
 
 .custom-radio .custom-control-input:checked~.custom-control-indicator {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns="http: //www.w3.org/2000/svg" viewBox="0 0 8 8"%3E%3Cpath fill="%23fff" d="M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z"/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"%3E%3Cpath fill="%23fff" d="M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z"/%3E%3C/svg%3E")
 }
 
 .custom-control-input:active~.custom-control-indicator {
@@ -168,7 +168,7 @@ hr {
 }
 
 .custom-control-input:disabled~.custom-control-description {
-    color: #76767
+    color: #76767a;
 }
 
 .custom-control {
@@ -287,19 +287,19 @@ hr {
 }
 
 .b-l {
-    border-left: 1px solid #edeed
+    border-left: 1px solid #ededed
 }
 
 .b-r {
-    border-left: 1px solid #edeed
+    border-left: 1px solid #ededed
 }
 
 .b-t {
-    border-top: 1px solid #edeed
+    border-top: 1px solid #ededed
 }
 
 .b-b {
-    border-bottom: 1px solid #edeed
+    border-bottom: 1px solid #ededed
 }
 
 .b-b-0 {
@@ -375,7 +375,7 @@ hr {
 }
 
 .navbar {
-    background-image: url("../../assets/img/menu-bg.jpg");
+    background-image: url("../assets/img/menu-bg.jpg");
     padding: .95rem 1rem;
     border-radius: 0;
 }
@@ -573,11 +573,11 @@ hr {
     top: -20%;
     width: 130px;
     height: 32px;
-    background: url(../../assets/img/arrow.png);
+    background: url(../assets/img/arrow.png);
 }
 
 .step2:after {
-    background: url(../../assets/img/arrow-dotted.png);
+    background: url(../assets/img/arrow-dotted.png);
     height: 25px;
     right: -95%;
     top: -15%;
@@ -760,7 +760,7 @@ hr {
     bottom: -1px;
     left: 0;
     content: "";
-    background: url(../../assets/img/zig-zag.png);
+    background: url(../assets/img/zig-zag.png);
     width: 100%;
     height: 5px;
 }
@@ -839,7 +839,7 @@ hr {
 }
 
 @media (max-width: 543px) {
-    ...
+    
 }
 
 @media (min-width: 544px) and (max-width: 767px) {
@@ -900,7 +900,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    ...
+    
 }
 
 
@@ -978,7 +978,7 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-    background-image: url(../../assets/img/city.png), url(../../assets/img/pattern.png);
+    background-image: url(../assets/img/city.png), url(../assets/img/pattern.png);
     background-repeat: repeat-x, repeat;
     background-position: bottom, center;
     padding: 90px 0;
@@ -989,7 +989,7 @@ How it works section
     position: absolute;
     right: 20px;
     top: -30px;
-    background: url(../../assets/img/peanuts.png);
+    background: url(../assets/img/peanuts.png);
     width: 150px;
     height: 51px;
     content: "";
@@ -1061,7 +1061,7 @@ Steps
     background-color: #f30;
     border-radius: 50%;
     font-size: 1.5em;
-    font-family: "Give You Glory", cursive;
+    font-family: "Give You Glory", "cursive";
     font-weight: 700;
     color: #fff;
 }
@@ -1085,7 +1085,7 @@ Steps
     top: 15%;
     width: 185px;
     height: 34px;
-    background: url(../../assets/img/arrow-big.png) no-repeat;
+    background: url(../assets/img/arrow-big.png) no-repeat;
 }
 
 .col2:after {
@@ -1095,7 +1095,7 @@ Steps
     top: 11%;
     width: 175px;
     height: 34px;
-    background: url(../../assets/img/arrow-big-dotted.png) no-repeat;
+    background: url(../assets/img/arrow-big-dotted.png) no-repeat;
 }
 
 .how-it-works-solution {
@@ -1131,7 +1131,7 @@ Steps
 }
 
 @media (min-width: 1200px) {
-    ...
+    
 }
 
 
@@ -1159,7 +1159,7 @@ Steps
     position: absolute;
     top: -81px;
     left: 50px;
-    background: url(../../assets/img/chilly.png);
+    background: url(../assets/img/chilly.png);
     width: 103px;
     height: 151px;
     content: "";

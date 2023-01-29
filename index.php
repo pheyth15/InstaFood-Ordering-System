@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include("src/connection/connect.php");  //include connection file
+include("connection/connect.php");  //include connection file
 error_reporting(0);  // using to hide undefine undex errors
 session_start(); //start temp session until logout/browser closed
 
@@ -13,13 +13,15 @@ session_start(); //start temp session until logout/browser closed
     <link rel="icon" href="assets/img/web-icon.png">
     <title>InstaFood</title>
     <!-- Bootstrap core CSS -->
-    <link href="src/css/bootstrap.min.css" rel="stylesheet">
-    <link href="src/css/font-awesome.min.css" rel="stylesheet">
-    <link href="src/css/animsition.min.css" rel="stylesheet">
-    <link href="src/css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles-->
-    <link href="src/css/styles.css" rel="stylesheet"> </head>
+    <link href="css/styles.css" rel="stylesheet">
+ </head>
+
 
 <body class="home">
     
@@ -312,14 +314,14 @@ session_start(); //start temp session until logout/browser closed
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="src/js/jquery.min.js"></script>
-    <script src="src/js/tether.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
-    <script src="src/js/animsition.min.js"></script>
-    <script src="src/js/bootstrap-slider.min.js"></script>
-    <script src="src/js/jquery.isotope.min.js"></script>
-    <script src="src/js/headroom.js"></script>
-    <script src="src/js/foodpicky.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/headroom.js"></script>
+    <script src="js/foodpicky.min.js"></script>
 </body>
 
 </html>
