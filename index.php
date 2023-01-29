@@ -21,7 +21,7 @@ session_start(); //start temp session until logout/browser closed
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet"> </head>
+    <link href="css/styles.css" rel="stylesheet"> </head>
 
 <body class="home">
     
