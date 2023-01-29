@@ -288,7 +288,7 @@ session_start(); //start temp session until logout/browser closed
         <div class="footer-left">
 
             <div class="logo-image">
-                <img src="assets/src/img/banner-footer.png">
+                <img src="assets/img/banner-footer.png">
              </div>
 
              <p class="footer-links">
