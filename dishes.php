@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include("../connection/connect.php"); // connection to db
+include("connection/connect.php"); // connection to db
 error_reporting(0);
 session_start();
 
@@ -17,16 +17,16 @@ include_once 'product-action.php'; //including controller
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="#">
+    <link rel="icon" href="assets/img/web-icon.png">
     <title>Starter Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
-    <link href="../css/animsition.min.css" rel="stylesheet">
-    <link href="../css/animate.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animsition.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles for this template -->
-    <link href="../css/styles.css" rel="stylesheet"> </head>
+    <link href="css/styles.css" rel="stylesheet"> </head>
 
 <body>
     
@@ -36,7 +36,7 @@ include_once 'product-action.php'; //including controller
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="../../assets/img/header-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="assets/img/header-logo.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
@@ -82,13 +82,13 @@ include_once 'product-action.php'; //including controller
 									     $rows=mysqli_fetch_array($ress);
 										  
 										  ?>
-            <section class="inner-page-hero bg-image" data-image-src="../../assets/img/dish.jpeg">
+            <section class="inner-page-hero bg-image" data-image-src="assets/img/dish.jpeg">
                 <div class="profile">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
                                 <div class="image-wrap">
-                                    <figure><?php echo '<img src="../../admin/Res_img/'.$rows['image'].'" alt="Restaurant logo">'; ?></figure>
+                                    <figure><?php echo '<img src="admin/Res_img/'.$rows['image'].'" alt="Restaurant logo">'; ?></figure>
                                 </div>
                             </div>
 							
@@ -221,7 +221,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                         <div class="col-xs-12 col-sm-12 col-lg-8">
 										<form method="post" action='dishes.php?res_id=<?php echo $_GET['res_id'];?>&action=add&id=<?php echo $product['d_id']; ?>'>
                                             <div class="rest-logo pull-left">
-                                                <a class="restaurant-logo pull-left" href="#"><?php echo '<img src="../../admin/Res_img/dishes/'.$product['img'].'" alt="Food logo">'; ?></a>
+                                                <a class="restaurant-logo pull-left" href="#"><?php echo '<img src="admin/Res_img/dishes/'.$product['img'].'" alt="Food logo">'; ?></a>
                                             </div>
                                             <!-- end:Logo -->
                                             <div class="rest-descr">
@@ -242,11 +242,6 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                 </div>
                                 <!-- end:Food item -->
 								
-								<?php
-									  }
-									}
-									
-								?>
 								
 								
                               
@@ -500,14 +495,14 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
     </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/tether.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/animsition.min.js"></script>
-    <script src="../js/bootstrap-slider.min.js"></script>
-    <script src="../js/jquery.isotope.min.js"></script>
-    <script src="../js/headroom.js"></script>
-    <script src="../js/foodpicky.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animsition.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/headroom.js"></script>
+    <script src="js/foodpicky.min.js"></script>
 </body>
 
 </html>
