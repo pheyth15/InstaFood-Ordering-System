@@ -140,21 +140,9 @@ session_start(); //start temp session until logout/browser closed
 												</div>';
 													
 										  }
-						
-						
 						?>
 				
-				
-				
-				
-                  
-					
-					
-					
-					
-					
-					
-                 
+
                 </div>
             </div>
         </section>
