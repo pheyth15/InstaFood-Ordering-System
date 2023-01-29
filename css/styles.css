@@ -372,7 +372,7 @@ hr {
 }
 
 .navbar {
-    background-image: url("../images/menu-bg.jpg");
+    background-image: url("../assets/img/menu-bg.jpg");
     padding: .95rem 1rem;
     border-radius: 0;
 }
@@ -570,11 +570,11 @@ hr {
     top: -20%;
     width: 130px;
     height: 32px;
-    background: url(../images/arrow.png);
+    background: url(../assets/img/arrow.png);
 }
 
 .step2:after {
-    background: url(../images/arrow-dotted.png);
+    background: url(../assets/img/arrow-dotted.png);
     height: 25px;
     right: -95%;
     top: -15%;
@@ -757,7 +757,7 @@ hr {
     bottom: -1px;
     left: 0;
     content: "";
-    background: url(../images/zig-zag.png);
+    background: url(../assets/img/zig-zag.png);
     width: 100%;
     height: 5px;
 }
@@ -975,7 +975,7 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-    background-image: url(../images/city.png), url(../images/pattern.png);
+    background-image: url(../assets/img/city.png), url(../assets/img/pattern.png);
     background-repeat: repeat-x, repeat;
     background-position: bottom, center;
     padding: 90px 0;
@@ -986,7 +986,7 @@ How it works section
     position: absolute;
     right: 20px;
     top: -30px;
-    background: url(../images/peanuts.png);
+    background: url(../assets/img/peanuts.png);
     width: 150px;
     height: 51px;
     content: "";
@@ -1082,7 +1082,7 @@ Steps
     top: 15%;
     width: 185px;
     height: 34px;
-    background: url(../images/arrow-big.png) no-repeat;
+    background: url(../assets/img/arrow-big.png) no-repeat;
 }
 
 .col2:after {
@@ -1092,7 +1092,7 @@ Steps
     top: 11%;
     width: 175px;
     height: 34px;
-    background: url(../images/arrow-big-dotted.png) no-repeat;
+    background: url(../assets/img/arrow-big-dotted.png) no-repeat;
 }
 
 .how-it-works-solution {
@@ -1156,7 +1156,7 @@ Steps
     position: absolute;
     top: -81px;
     left: 50px;
-    background: url(../images/chilly.png);
+    background: url(../assets/img/chilly.png);
     width: 103px;
     height: 151px;
     content: "";
@@ -1302,130 +1302,6 @@ Steps
 
 @media (min-width: 1200px) {}
 
-
-/*-----------------------------------  
-App section
------------------------------------*/
-
-.app-section {
-    padding-top: 35px;
-    position: relative
-}
-
-.app-section:after {
-    content: "";
-    background: url(../images/city-2.png) center bottom;
-    background-color: #f30;
-    display: block;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    background-repeat: repeat-x;
-}
-
-.app-wrap {
-    position: relative;
-    z-index: 2
-}
-
-@media (min-width: 280px) and (max-width: 568px) {
-    .app-wrap {
-        padding-bottom: 30px
-    }
-}
-
-.app-wrap figure {
-    margin: 0;
-    text-align: center;
-}
-
-.app-wrap .left-text {
-    padding-top: 110px;
-}
-
-.app-wrap .left-text h3,
-.app-wrap .left-text p {
-    color: #fff;
-}
-
-
-/* ==========================
-*  Download app buttons
-============================*/
-
-.app-btn {
-    color: #FFFFFF;
-    float: left;
-    margin-right: 15px;
-    background: #81858b;
-    margin-top: 5px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 2px;
-    transition: all .3s;
-}
-
-.app-btn i {
-    font-size: 38px;
-    line-height: 50px;
-    margin: 0px;
-    padding: 0 18px;
-}
-
-.app-btn .pull-right {
-    padding: 8px 25px 8px 10px;
-}
-
-.app-btn .text {
-    display: block;
-    font-size: 12px;
-    line-height: 1;
-}
-
-.app-btn:hover,
-.app-btn:active,
-.app-btn:focus {
-    color: #FFFFFF;
-    background: #111111;
-}
-
-.android-button {
-    background: #82b21c;
-}
-
-@media (min-width: 348px) and (max-width: 767px) {
-    .app-section {
-        padding: 55px 0;
-    }
-    .text-img-block figure {
-        display: none
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .app-wrap .left-text {
-        padding-top: 100px;
-        font-size: 80%;
-    }
-    .app-btn i {
-        font-size: 28px;
-        line-height: 41px;
-        margin: 0px;
-        padding: 0 18px;
-    }
-    .app-btn {
-        padding-right: 5px
-    }
-    .app-btn .pull-right {
-        padding: 7px 14px 0 5px
-    }
-    .app-btn i {
-        padding: 0 10px;
-    }
-}
 
 
 /* ==========================
