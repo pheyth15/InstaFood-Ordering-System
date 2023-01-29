@@ -13,12 +13,13 @@ session_start(); //start temp session until logout/browser closed
     <link rel="icon" href="assets/img/web-icon.png">
     <title>InstaFood</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animsition.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/font-awesome.min.css" rel="stylesheet">
+    <link href="src/css/animsition.min.css" rel="stylesheet">
+    <link href="src/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom styles-->
-    <link href="css/styles.css" rel="stylesheet"> </head>
+    <link href="src/css/styles.css" rel="stylesheet"> </head>
 
 <body class="home">
     
@@ -242,11 +243,11 @@ session_start(); //start temp session until logout/browser closed
 														<div class="restaurant-wrap">
 															<div class="row">
 																<div class="col-xs-12 col-sm-3 col-md-12 col-lg-3 text-xs-center">
-																	<a class="restaurant-logo" href="dishes.php?res_id='.$rows['rs_id'].'" > <img src="admin/Res_img/'.$rows['image'].'" alt="Restaurant logo"> </a>
+																	<a class="restaurant-logo" href="src/pages/dishes.php?res_id='.$rows['rs_id'].'" > <img src="admin/Res_img/'.$rows['image'].'" alt="Restaurant logo"> </a>
 																</div>
 																<!--end:col -->
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
-																	<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
+																	<h5><a href="src/pages/dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
 																	<div class="bottom-part">
 																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
 																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
@@ -287,7 +288,7 @@ session_start(); //start temp session until logout/browser closed
         <div class="footer-left">
 
             <div class="logo-image">
-                <img src="assets/src/images/Logo5.png">
+                <img src="assets/src/img/banner-footer.png">
              </div>
 
              <p class="footer-links">
@@ -336,14 +337,14 @@ session_start(); //start temp session until logout/browser closed
     
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/animsition.min.js"></script>
-    <script src="js/bootstrap-slider.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/headroom.js"></script>
-    <script src="js/foodpicky.min.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/tether.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="src/js/animsition.min.js"></script>
+    <script src="src/js/bootstrap-slider.min.js"></script>
+    <script src="src/js/jquery.isotope.min.js"></script>
+    <script src="src/js/headroom.js"></script>
+    <script src="src/js/foodpicky.min.js"></script>
 </body>
 
 </html>

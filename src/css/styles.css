@@ -372,7 +372,7 @@ hr {
 }
 
 .navbar {
-    background-image: url("../assets/img/menu-bg.jpg");
+    background-image: url("../../assets/img/menu-bg.jpg");
     padding: .95rem 1rem;
     border-radius: 0;
 }
@@ -570,11 +570,11 @@ hr {
     top: -20%;
     width: 130px;
     height: 32px;
-    background: url(../assets/img/arrow.png);
+    background: url(../../assets/img/arrow.png);
 }
 
 .step2:after {
-    background: url(../assets/img/arrow-dotted.png);
+    background: url(../../assets/img/arrow-dotted.png);
     height: 25px;
     right: -95%;
     top: -15%;
@@ -757,7 +757,7 @@ hr {
     bottom: -1px;
     left: 0;
     content: "";
-    background: url(../assets/img/zig-zag.png);
+    background: url(../../assets/img/zig-zag.png);
     width: 100%;
     height: 5px;
 }
@@ -975,7 +975,7 @@ How it works section
 -----------------------------------*/
 
 .how-it-works {
-    background-image: url(../assets/img/city.png), url(../assets/img/pattern.png);
+    background-image: url(../../assets/img/city.png), url(../../assets/img/pattern.png);
     background-repeat: repeat-x, repeat;
     background-position: bottom, center;
     padding: 90px 0;
@@ -986,7 +986,7 @@ How it works section
     position: absolute;
     right: 20px;
     top: -30px;
-    background: url(../assets/img/peanuts.png);
+    background: url(../../assets/img/peanuts.png);
     width: 150px;
     height: 51px;
     content: "";
@@ -1082,7 +1082,7 @@ Steps
     top: 15%;
     width: 185px;
     height: 34px;
-    background: url(../assets/img/arrow-big.png) no-repeat;
+    background: url(../../assets/img/arrow-big.png) no-repeat;
 }
 
 .col2:after {
@@ -1092,7 +1092,7 @@ Steps
     top: 11%;
     width: 175px;
     height: 34px;
-    background: url(../assets/img/arrow-big-dotted.png) no-repeat;
+    background: url(../../assets/img/arrow-big-dotted.png) no-repeat;
 }
 
 .how-it-works-solution {
@@ -1156,7 +1156,7 @@ Steps
     position: absolute;
     top: -81px;
     left: 50px;
-    background: url(../assets/img/chilly.png);
+    background: url(../../assets/img/chilly.png);
     width: 103px;
     height: 151px;
     content: "";
@@ -1911,7 +1911,7 @@ a.more-link {
 }
 
 .list-check>li:after {
-    font-family: FontAwesome;
+    font-family: "FontAwesome";
     position: absolute;
     top: 1px;
     left: 0;
@@ -2174,7 +2174,7 @@ a[aria-expanded=false] .fa-angle-down {
 *=================================*/
 
 .pricing-page {
-    background-image: url(../images/list.png);
+    background-image: url(../../images/list.png);
     background-repeat: no-repeat;
     background-position: top left;
     position: relative;
@@ -2439,28 +2439,6 @@ a[aria-expanded=false] .fa-angle-down {
 
 /*! =========================================================
 * bootstrap-slider.js
-*
-* Maintainers:
-*		Kyle Kemp
-*			- Twitter: @seiyria
-*			- Github:  seiyria
-*		Rohit Kalkur
-*			- Twitter: @Rovolutionary
-*			- Github:  rovolution
-*
-* =========================================================
-*
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-* http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
 * ========================================================= */
 
 .slider {
