@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php
-include("connection/connect.php");  //include connection file
+include("src/connection/connect.php");  //include connection file
 error_reporting(0);  // using to hide undefine undex errors
 session_start(); //start temp session until logout/browser closed
 
@@ -196,7 +196,7 @@ session_start(); //start temp session until logout/browser closed
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="title-block pull-left">
-                            <h4>Featured restaurants</h4> </div>
+                            <h4>Featured Stores</h4> </div>
                     </div>
                     <div class="col-sm-8">
                         <!-- restaurants filter nav starts -->
@@ -241,17 +241,6 @@ session_start(); //start temp session until logout/browser closed
 																<!--end:col -->
 																<div class="col-xs-12 col-sm-9 col-md-12 col-lg-9">
 																	<h5><a href="src/pages/dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].'</span>
-																	<div class="bottom-part">
-																		<div class="cost"><i class="fa fa-check"></i> Min $ 10,00</div>
-																		<div class="mins"><i class="fa fa-motorcycle"></i> 30 min</div>
-																		<div class="ratings"> <span>
-																				<i class="fa fa-star"></i>
-																				<i class="fa fa-star"></i>
-																				<i class="fa fa-star"></i>
-																				<i class="fa fa-star"></i>
-																				<i class="fa fa-star-o"></i>
-																			</span> (122) </div>
-																	</div>
 																</div>
 																<!-- end:col -->
 															</div>
