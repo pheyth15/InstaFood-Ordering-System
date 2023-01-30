@@ -305,11 +305,7 @@ session_start(); //start temp session until logout/browser closed
             </form>
 
         </div>
-
     </footer>
-                <!-- bottom footer ends -->
-            </div>
-        </footer>
         <!-- end:Footer -->
     
     <!-- Bootstrap core JavaScript
