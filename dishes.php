@@ -25,7 +25,7 @@ include_once 'product-action.php'; //including controller
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet"> </head>
+    <link href="css/styles.css" rel="stylesheet"> </head>
 
 <body>
     
@@ -81,7 +81,7 @@ include_once 'product-action.php'; //including controller
 									     $rows=mysqli_fetch_array($ress);
 										  
 										  ?>
-            <section class="inner-page-hero bg-image" data-image-src="images/img/dish.jpeg">
+            <section class="inner-page-hero bg-image" data-image-src="assets/img/dish.jpeg">
                 <div class="profile">
                     <div class="container">
                         <div class="row">
@@ -95,19 +95,6 @@ include_once 'product-action.php'; //including controller
                                 <div class="pull-left right-text white-txt">
                                     <h6><a href="#"><?php echo $rows['title']; ?></a></h6>
                                     <p><?php echo $rows['address']; ?></p>
-                                    <ul class="nav nav-inline">
-                                        <li class="nav-item"> <a class="nav-link active" href="#"><i class="fa fa-check"></i> Min $ 10,00</a> </li>
-                                        <li class="nav-item"> <a class="nav-link" href="#"><i class="fa fa-motorcycle"></i> 30 min</a> </li>
-                                        <li class="nav-item ratings">
-                                            <a class="nav-link" href="#"> <span>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-o"></i>
-                                    </span> </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
 							
