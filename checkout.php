@@ -104,7 +104,7 @@ else{
 					
                 </div>
             
-			
+			<br>
 			
 				  
             <div class="container m-t-30">
@@ -169,7 +169,7 @@ else{
                 </div>
 				 </form>
             </div>
-            
+            <br><br>
             <!-- start: FOOTER -->
             <footer class="footer-distributed">
 
