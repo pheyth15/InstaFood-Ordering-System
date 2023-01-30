@@ -40,7 +40,7 @@ include_once 'product-action.php'; //including controller
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only"></span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Stores<span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="stores.php">Stores<span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
@@ -70,7 +70,7 @@ include_once 'product-action.php'; //including controller
                 <div class="container">
                     <ul class="row links">
                       
-                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Choose a Store</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="stores.php">Choose a Store</a></li>
                         <li class="col-xs-12 col-sm-4 link-item active"><span>2</span><a href="dishes.php?res_id=<?php echo $_GET['res_id']; ?>">Add to Bag</a></li>
                         <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Check Out</a></li>
                     </ul>

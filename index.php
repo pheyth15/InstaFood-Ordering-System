@@ -35,7 +35,7 @@ session_start(); //start temp session until logout/browser closed
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Stores <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="stores.php">Stores <span class="sr-only"></span></a> </li>
                             
                            
 							<?php
@@ -68,7 +68,7 @@ session_start(); //start temp session until logout/browser closed
                     <h1>One Click to Snap & Eat!</h1>
                     <h5 class="font-white space-xs">Order your favorite instagrammable foods in 3 simples steps</h5>
                     <div class="banner-form">
-                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Order Now</button>
+                            <button onclick="location.href='stores.php'" type="button" class="btn theme-btn btn-lg">Order Now</button>
                         </form>
                     </div>
                     <div class="steps">
@@ -122,9 +122,6 @@ session_start(); //start temp session until logout/browser closed
 						                       echo '  <div class="col-xs-12 col-sm-6 col-md-4 food-item">
 														<div class="food-item-wrap">
 															<div class="figure-wrap bg-image" data-image-src="admin/Res_img/dishes/'.$r['img'].'">
-																<div class="distance"><i class="fa fa-pin"></i>1240m</div>
-																<div class="rating pull-left"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-																<div class="review pull-right"><a href="#">198 reviews</a> </div>
 															</div>
 															<div class="content">
 																<h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
