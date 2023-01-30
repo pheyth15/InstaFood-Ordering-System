@@ -45,7 +45,7 @@ include_once 'product-action.php'; //including controller
 							<?php
 						if(empty($_SESSION["user_id"]))
 							{
-								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
+								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Log In</a> </li>
 							  <li class="nav-item"><a href="registration.php" class="nav-link active">Sign Up</a> </li>';
 							}
 						else
