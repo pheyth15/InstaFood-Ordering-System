@@ -68,7 +68,7 @@ session_start(); //start temp session until logout/browser closed
                     <h1>One Click to Snap & Eat!</h1>
                     <h5 class="font-white space-xs">Order your favorite instagrammable foods in 3 simples steps</h5>
                     <div class="banner-form">
-                            <button onclick="location.href='restaurants.html'" type="button" class="btn theme-btn btn-lg">Order Now</button>
+                            <button onclick="location.href='restaurants.php'" type="button" class="btn theme-btn btn-lg">Order Now</button>
                         </form>
                     </div>
                     <div class="steps">
