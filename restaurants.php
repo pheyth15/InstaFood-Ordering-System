@@ -69,7 +69,7 @@ session_start();
             </div>
             <!-- end:Top links -->
             <!-- start: Inner page hero -->
-            <div class="inner-page-hero bg-image" data-image-src="images/img/res.jpeg">
+            <div class="inner-page-hero bg-image" data-image-src="assets/img/res.jpeg">
                 <div class="container"> </div>
                 <!-- end:Container -->
             </div>
@@ -102,19 +102,19 @@ session_start();
                                     Pizza
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Milktea
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Sendwich
+                                    Cake
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Fish 
+                                    Fruitshake
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Desert
+                                    Burger
                                     </a> </li>
                                         <li> <a href="#" class="tag">
-                                    Salad
+                                    Fries
                                     </a> </li>
                                     </ul>
                                 </div>
@@ -135,20 +135,15 @@ session_start();
 															</div>
 															<!-- end:Logo -->
 															<div class="entry-dscr">
-																<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].' <a href="#">...</a></span>
-																<ul class="list-inline">
-																	<li class="list-inline-item"><i class="fa fa-check"></i> Min $ 10,00</li>
-																	<li class="list-inline-item"><i class="fa fa-motorcycle"></i> 30 min</li>
-																</ul>
+																<h5><a href="dishes.php?res_id='.$rows['rs_id'].'" >'.$rows['title'].'</a></h5> <span>'.$rows['address'].' <a href="#"></a></span>
 															</div>
 															<!-- end:Entry description -->
 														</div>
 														
 														 <div class="col-sm-12 col-md-12 col-lg-4 text-xs-center">
 																<div class="right-content bg-white">
-																	<div class="right-review">
-																		<div class="rating-block"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i> </div>
-																		<p> 245 Reviews</p> <a href="dishes.php?res_id='.$rows['rs_id'].'" class="btn theme-btn-dash">View Menu</a> </div>
+																	<div class="right-review"><br>
+                                                                    <a href="dishes.php?res_id='.$rows['rs_id'].'" class="btn theme-btn-dash">View Menu</a> </div>
 																</div>
 																<!-- end:right info -->
 															</div>';
