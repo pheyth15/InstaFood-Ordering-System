@@ -61,9 +61,9 @@ session_start();
                 <div class="container">
                     <ul class="row links">
                        
-                        <li class="col-xs-12 col-sm-4 link-item active"><span>1</span><a href="restaurants.php">Choose Restaurant</a></li>
-                        <li class="col-xs-12 col-sm-4 link-item"><span>2</span><a href="#">Pick Your favorite food</a></li>
-                        <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Order and Pay online</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item active"><span>1</span><a href="restaurants.php">Choose Store</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>2</span><a href="#">Add to Bag</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Check Out</a></li>
                     </ul>
                 </div>
             </div>
