@@ -18,7 +18,7 @@ include_once 'product-action.php'; //including controller
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
+    <title>Menu | InstaFood</title>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -36,24 +36,24 @@ include_once 'product-action.php'; //including controller
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="assets/img/header-logo.png" alt=""> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                        <ul class="nav navbar-nav">
-                            <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Stores<span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
 							{
-								echo '<li class="nav-item"><a href="login.php" class="nav-link active">login</a> </li>
-							  <li class="nav-item"><a href="registration.php" class="nav-link active">signup</a> </li>';
+								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
+							  <li class="nav-item"><a href="registration.php" class="nav-link active">Sign Up</a> </li>';
 							}
 						else
 							{
 									
 									
-										echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">your orders</a> </li>';
-									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">logout</a> </li>';
+										echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">My Bag</a> </li>';
+									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Log Out</a> </li>';
 							}
 
 						?>
@@ -70,9 +70,9 @@ include_once 'product-action.php'; //including controller
                 <div class="container">
                     <ul class="row links">
                       
-                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Choose Restaurant</a></li>
-                        <li class="col-xs-12 col-sm-4 link-item active"><span>2</span><a href="dishes.php?res_id=<?php echo $_GET['res_id']; ?>">Pick Your favorite food</a></li>
-                        <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Order and Pay online</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Choose a Store</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item active"><span>2</span><a href="dishes.php?res_id=<?php echo $_GET['res_id']; ?>">Add to Bag</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>3</span><a href="#">Check Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -117,7 +117,7 @@ include_once 'product-action.php'; //including controller
                          <div class="widget widget-cart">
                                 <div class="widget-heading">
                                     <h3 class="widget-title text-dark">
-                                 Your Shopping Cart
+                                 Your Bag
                               </h3>
 							  				  
 							  
@@ -164,10 +164,9 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                              
                                 <div class="widget-body">
                                     <div class="price-wrap text-xs-center">
-                                        <p>TOTAL</p>
+                                        <p>TOTAL AMOUNT</p>
                                         <h3 class="value"><strong><?php echo "₱".$item_total; ?></strong></h3>
-                                        <p>Free Shipping</p>
-                                        <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Checkout</a>
+                                        <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Check Out</a>
                                     </div>
                                 </div>
 								
@@ -183,7 +182,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                         <div class="menu-widget" id="2">
                             <div class="widget-heading">
                                 <h3 class="widget-title text-dark">
-                              POPULAR ORDERS Delicious hot food! <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
+                              Menu <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
                               <i class="fa fa-angle-right pull-right"></i>
                               <i class="fa fa-angle-down pull-right"></i>
                               </a>
@@ -221,7 +220,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                         <div class="col-xs-12 col-sm-12 col-lg-4 pull-right item-cart-info"> 
 										<span class="price pull-left" >₱<?php echo $product['price']; ?></span>
 										  <input class="b-r-0" type="text" name="quantity"  style="margin-left:30px;" value="1" size="2" />
-										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to cart" />
+										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to Bag" />
 										</div>
 										</form>
                                     </div>
