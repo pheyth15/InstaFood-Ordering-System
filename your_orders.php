@@ -273,8 +273,8 @@ else
 							
 							  <th>Item</th>
 							  <th>Quantity</th>
-							  <th>price</th>
-							   <th>status</th>
+							  <th>Price</th>
+							   <th>Status</th>
 							     <th>Date</th>
 								   <th>Action</th>
 							  
@@ -302,8 +302,8 @@ else
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
                                                           <?php $row_total += ($row["price"]*$row["quantity"]); ?>
-														  <td data-column="price"><?php echo "₱".$row_total; ?></td>
-														   <td data-column="status"> 
+														  <td data-column="Price"><?php echo "₱".$row_total; ?></td>
+														   <td data-column="Status"> 
 														   <?php 
 																			$status=$row['status'];
 																			if($status=="" or $status=="NULL")

@@ -129,7 +129,7 @@ else{
 												 
                                                     <tr>
                                                         <td>Bag Subtotal</td>
-                                                        <td> <?php echo "$".$item_total; ?></td>
+                                                        <td> <?php echo "₱".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Delivery Fee</td>
