@@ -295,12 +295,14 @@ else
 										  
 										  while($row=mysqli_fetch_array($query_res))
 										  {
-						
+                                            
+                                        
 							?>
 												<tr>	
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
-														  <td data-column="price">₱<?php echo $row['price']; ?></td>
+                                                          <?php $row_total += ($row["price"]*$row["quantity"]); ?>
+														  <td data-column="price"><?php echo "₱".$row_total; ?></td>
 														   <td data-column="status"> 
 														   <?php 
 																			$status=$row['status'];
