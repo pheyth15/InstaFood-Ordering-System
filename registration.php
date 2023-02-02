@@ -260,11 +260,11 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
              <p class="footer-links">
                 <a href="index.php">Home</a>
                 ·
-                <a href="#">View Stores</a>
+                <a href="stores.php">View Stores</a>
                 ·
-                <a href="#">Log In</a>
+                <a href="login.php">Log In</a>
                 ·
-                <a href="#">Sign Up</a>
+                <a href="registration.php">Sign Up</a>
             </p>
 
             <p class="footer-company-name">InstaFood © 2023</p>
