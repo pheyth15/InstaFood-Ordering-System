@@ -206,7 +206,6 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         <h4>Registration is fast, easy, and free.</h4>
                         <p>Once you"re registered, you can:</p>
                         <hr>
-                        <img src="http://placehold.it/400x300" alt="" class="img-fluid">
                         <p></p>
                         <div class="panel">
                            <div class="panel-heading">
@@ -234,33 +233,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                   </div>
                </div>
             </section>
-            <section class="app-section">
-               <div class="app-wrap">
-                  <div class="container">
-                     <div class="row text-img-block text-xs-left">
-                        <div class="container">
-                           <div class="col-xs-12 col-sm-6  right-image text-center">
-                              <figure> <img src="images/app.png" alt="Right Image"> </figure>
-                           </div>
-                           <div class="col-xs-12 col-sm-6 left-text">
-                              <h3>The Best Food Delivery App</h3>
-                              <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
-                              <div class="social-btns">
-                                 <a href="#" class="app-btn apple-button clearfix">
-                                    <div class="pull-left"><i class="fa fa-apple"></i> </div>
-                                    <div class="pull-right"> <span class="text">Available on the</span> <span class="text-2">App Store</span> </div>
-                                 </a>
-                                 <a href="#" class="app-btn android-button clearfix">
-                                    <div class="pull-left"><i class="fa fa-android"></i> </div>
-                                    <div class="pull-right"> <span class="text">Available on the</span> <span class="text-2">Play store</span> </div>
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+            
             <!-- start: FOOTER -->
             <footer class="footer">
                <div class="container">
