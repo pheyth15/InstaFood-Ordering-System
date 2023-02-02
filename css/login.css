@@ -86,11 +86,12 @@ body {
 }
 .form-module h2 {
   margin: 0 0 20px;
-  color: #f30;
+  color: black;
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .form-module input {
   outline: none;
@@ -115,6 +116,7 @@ body {
   padding: 10px 15px;
   color: #ffffff;
   transition: 0.3s ease;
+  font-family: Tahoma;
 }
 .form-module button:hover {
   background: #b92a07;
@@ -135,7 +137,7 @@ body {
 
 
 .wrapper1{
-  background-image: url(../assets/img/backdrop2.png);
+  background-image: url(../assets/img/4.png);
   background-repeat: no-repeat;
   background-size: cover;
   

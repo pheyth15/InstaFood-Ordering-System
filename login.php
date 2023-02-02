@@ -16,6 +16,8 @@
 	  #buttn{
 		  color:#fff;
 		  background-color: #ff3300;
+		  font-family: Sans-serif;
+		  font-weight:bold;
 	  }
 	  </style>
   
@@ -64,13 +66,13 @@ if(isset($_POST['submit']))   // if button is submit
    
   </div>
   <div class="form">
-    <h2>Log In To Your Account</h2>
+    <h2>Login to Your Account</h2>
 	  <span style="color:red;"><?php echo $message; ?></span> 
    <span style="color:green;"><?php echo $success; ?></span>
     <form action="" method="post">
       <input type="text" placeholder="Username"  name="username"/>
       <input type="password" placeholder="Password" name="password"/>
-      <input type="submit" id="buttn" name="submit" value="Log In" />
+      <input type="submit" id="buttn" name="submit" value="LOGIN" />
     </form>
   </div>
   
