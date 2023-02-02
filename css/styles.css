@@ -2708,3 +2708,10 @@ a[aria-expanded=false] .fa-angle-down {
     padding: 0 5px;
     color: #3a3e47;
 }
+
+.reg-wrapper{
+    background-image: url(../assets/img/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }

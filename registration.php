@@ -92,9 +92,9 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/styles.css" rel="stylesheet"> </head>
-<body>
-     
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+   <body class="reg-wrapper">
          <!--header starts-->
          <header id="header" class="header-scroll top-header headrom">
             <!-- .navbar -->
@@ -143,7 +143,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                     
                   </ul>
                </div>
-            </div>
+            </div><br><br><br>
             <section class="contact-page inner-page">
                <div class="container">
                   <div class="row">
@@ -155,8 +155,8 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 							  <form action="" method="post">
                                  <div class="row">
 								  <div class="form-group col-sm-12">
-                                       <label for="exampleInputEmail1">User-Name</label>
-                                       <input class="form-control" type="text" name="username" id="example-text-input" placeholder="UserName"> 
+                                       <label for="exampleInputEmail1">Username</label>
+                                       <input class="form-control" type="text" name="username" id="example-text-input" placeholder="Username"> 
                                     </div>
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">First Name</label>
@@ -167,19 +167,19 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                                        <input class="form-control" type="text" name="lastname" id="example-text-input-2" placeholder="Last Name"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Email address</label>
-                                       <input type="text" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> <small id="emailHelp" class="form-text text-muted">We"ll never share your email with anyone else.</small> 
+                                       <label for="exampleInputEmail1">Email Address</label>
+                                       <input type="text" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputEmail1">Phone number</label>
-                                       <input class="form-control" type="text" name="phone" id="example-tel-input-3" placeholder="Phone"> <small class="form-text text-muted">We"ll never share your email with anyone else.</small> 
+                                       <label for="exampleInputEmail1">Phone Number</label>
+                                       <input class="form-control" type="text" name="phone" id="example-tel-input-3" placeholder="Phone">
                                     </div>
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputPassword1">Password</label>
                                        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password"> 
                                     </div>
                                     <div class="form-group col-sm-6">
-                                       <label for="exampleInputPassword1">Repeat password</label>
+                                       <label for="exampleInputPassword1">Repeat Password</label>
                                        <input type="password" class="form-control" name="cpassword" id="exampleInputPassword2" placeholder="Password"> 
                                     </div>
 									 <div class="form-group col-sm-12">
@@ -203,8 +203,8 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                      </div>
                      <!-- WHY? -->
                      <div class="col-md-4">
-                        <h4>Registration is fast, easy, and free.</h4>
-                        <p>Once you"re registered, you can:</p>
+                        <h4>Register Now</h4>
+                        <p>Become an InstaFoodie today. Get exclusive vouchers, discounts, promos, and other perks for being an InstaFoodie!</p>
                         <hr>
                         <p></p>
                         <div class="panel">
@@ -227,14 +227,14 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                         <!-- end:Panel -->
                         <h4 class="m-t-20">Contact Customer Support</h4>
                         <p> If you"re looking for more help or have a question to ask, please </p>
-                        <p> <a href="contact.html" class="btn theme-btn m-t-15">contact us</a> </p>
+                        <p> <a href="#contact" class="btn theme-btn m-t-15">contact us</a> </p>
                      </div>
                      <!-- /WHY? -->
                   </div>
                </div>
             </section>
             
-            <!-- start: FOOTER -->
+            <!-- start: FOOTER --><br><br><br><br>
             <footer class="footer-distributed">
 
         <div class="footer-left">
@@ -271,7 +271,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 
             <form id="myForm" action="assets/back-end/connect-footer.php" method="post">
 
-                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="email" placeholder="Email" id="contact">
                 <textarea name="message" placeholder="Message"></textarea>
                 <button onclick="myFunction()">Send</button>
 
