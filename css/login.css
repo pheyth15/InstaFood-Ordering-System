@@ -39,6 +39,7 @@ body {
   border-top: 5px solid #f30;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
+  margin-top: 7%;
 }
 .form-module .toggle {
   cursor: pointer;
@@ -89,6 +90,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
+  text-align: center;
 }
 .form-module input {
   outline: none;
@@ -129,4 +131,12 @@ body {
 .form-module .cta a {
   color: #333333;
   text-decoration: none;
+}
+
+
+.wrapper1{
+  background-image: url(../assets/img/backdrop2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
