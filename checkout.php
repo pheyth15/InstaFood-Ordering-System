@@ -91,8 +91,8 @@ else{
                 <div class="container">
                     <ul class="row links">
                       
-                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="restaurants.php">Choose Restaurant</a></li>
-                        <li class="col-xs-12 col-sm-4 link-item "><span>2</span><a href="#">Pick Your favorite food</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item"><span>1</span><a href="stores.php">Choose Restaurant</a></li>
+                        <li class="col-xs-12 col-sm-4 link-item "><span>2</span><a href="dishes.php">Pick Your favorite food</a></li>
                         <li class="col-xs-12 col-sm-4 link-item active" ><span>3</span><a href="checkout.php">Order and Pay online</a></li>
                     </ul>
                 </div>
@@ -183,11 +183,11 @@ else{
                 <p class="footer-links">
                     <a href="index.php">Home</a>
                     ·
-                    <a href="#">View Stores</a>
+                    <a href="stores.php">View Stores</a>
                     ·
-                    <a href="#">My Bag</a>
+                    <a href="your_orders.php">My Orders</a>
                     ·
-                    <a href="#">Order</a>
+                    <a href="stores.php">Order Now</a>
                 </p>
 
                 <p class="footer-company-name">InstaFood © 2023</p>
