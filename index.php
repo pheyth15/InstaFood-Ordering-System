@@ -270,21 +270,21 @@ session_start(); //start temp session until logout/browser closed
              <p class="footer-links">
                 <a href="index.php">Home</a>
                 ·
-                <a href="#">View Stores</a>
+                <a href="stores.php">View Stores</a>
                 ·
-                <a href="#">My Bag</a>
+                <a href="your_orders.php">My Orders</a>
                 ·
-                <a href="#">Order</a>
+                <a href="stores.php">Order Now</a>
             </p>
 
             <p class="footer-company-name">InstaFood © 2023</p>
 
             <div class="footer-icons">
 
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-telegram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+                <a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
             </div>
 
         </div>

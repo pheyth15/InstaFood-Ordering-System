@@ -96,6 +96,8 @@ hr {
 }
 
 
+
+
 /* Remove space from columns */
 
 .row.no-gutter {
@@ -1864,16 +1866,19 @@ a.more-link {
 
 /* Food items */
 
+
 .menu-widget,
 .widget {
     border: 1px solid #eaebeb;
     background: #fafaf8;
     border-radius: 2px;
     position: relative;
+
 }
 
 .widget-body {
     padding: 20px;
+
 }
 
 .panel {
