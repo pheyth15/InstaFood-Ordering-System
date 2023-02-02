@@ -262,9 +262,9 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                 ·
                 <a href="#">View Stores</a>
                 ·
-                <a href="#">My Bag</a>
+                <a href="#">Log In</a>
                 ·
-                <a href="#">Order</a>
+                <a href="#">Sign Up</a>
             </p>
 
             <p class="footer-company-name">InstaFood © 2023</p>
