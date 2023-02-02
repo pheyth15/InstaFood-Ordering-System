@@ -8,7 +8,7 @@ include("connection/connect.php"); // connection
 if(isset($_POST['submit'] )) //if submit btn is pressed
 {
      if(empty($_POST['firstname']) ||  //fetching and find if its empty
-   	    empty($_POST['lastname'])|| 
+   	empty($_POST['lastname'])|| 
 		empty($_POST['email']) ||  
 		empty($_POST['phone'])||
 		empty($_POST['password'])||
@@ -69,7 +69,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 		
 		
 		
-		 header("refresh:5;url=login.php"); // redireted once inserted success
+		 header("refresh:5;url=login.php"); // redirected once inserted success
     }
 	}
 
@@ -83,17 +83,15 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="#">
-    <title>Starter Template for Bootstrap</title>
-    <!-- Bootstrap core CSS -->
+    <link rel="icon" href="assets/img/web-icon.png">
+    <title>Registration | InstaFood</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet"> </head>
 <body>
      
