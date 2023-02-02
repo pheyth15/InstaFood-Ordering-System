@@ -308,11 +308,11 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                     <p class="footer-links">
                         <a href="index.php">Home</a>
                         ·
-                        <a href="#">View Stores</a>
+                        <a href="stores.php">View Stores</a>
                         ·
-                        <a href="#">My Bag</a>
+                        <a href="your_order.php">My Orders</a>
                         ·
-                        <a href="#">Order</a>
+                        <a href="stores.php">Order Now</a>
                     </p>
 
                     <p class="footer-company-name">InstaFood © 2023</p>
