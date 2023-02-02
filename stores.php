@@ -31,7 +31,7 @@ session_start();
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only"></span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Stores<span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="stores.php">Stores<span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
