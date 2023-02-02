@@ -280,7 +280,6 @@ session_start(); //start temp session until logout/browser closed
             <p class="footer-company-name">InstaFood © 2023</p>
 
             <div class="footer-icons">
-
                 <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
                 <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
