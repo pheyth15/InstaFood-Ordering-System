@@ -12,6 +12,7 @@ if(empty($_SESSION['user_id']))  //if usser is not login redirected baack to log
 else
 {
 ?>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,132 +22,131 @@ else
     <meta name="author" content="">
     <link rel="icon" href="assets/img/web-icon.png">
     <title>My Bag | InstaFoood</title>
-    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
-<style type="text/css" rel="stylesheet">
+        
+        <style type="text/css" rel="stylesheet">
+
+        .indent-small {
+        margin-left: 5px;
+        }
+        .form-group.internal {
+        margin-bottom: 0;
+        }
+        .dialog-panel {
+        margin: 10px;
+        }
+        .datepicker-dropdown {
+        z-index: 200 !important;
+        }
+        .panel-body {
+        background: #e5e5e5;
+        /* Old browsers */
+        background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e5e5e5), color-stop(100%, #ffffff));
+        /* Chrome,Safari4+ */
+        background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+        /* Opera 12+ */
+        background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
+        /* IE10+ */
+        background: radial-gradient(ellipse at center, #e5e5e5 0%, #ffffff 100%);
+        /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        font: 600 15px "Open Sans", Arial, sans-serif;
+        }
+        label.control-label {
+        font-weight: 600;
+        color: #777;
+        }
 
 
-.indent-small {
-  margin-left: 5px;
-}
-.form-group.internal {
-  margin-bottom: 0;
-}
-.dialog-panel {
-  margin: 10px;
-}
-.datepicker-dropdown {
-  z-index: 200 !important;
-}
-.panel-body {
-  background: #e5e5e5;
-  /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #e5e5e5), color-stop(100%, #ffffff));
-  /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
-  /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #e5e5e5 0%, #ffffff 100%);
-  /* IE10+ */
-  background: radial-gradient(ellipse at center, #e5e5e5 0%, #ffffff 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
-  font: 600 15px "Open Sans", Arial, sans-serif;
-}
-label.control-label {
-  font-weight: 600;
-  color: #777;
-}
+        table { 
+            width: 750px; 
+            border-collapse: collapse; 
+            margin: auto;
+            
+            }
 
+        /* Zebra striping */
+        tr:nth-of-type(odd) { 
+            background: #eee; 
+            }
 
-table { 
-	width: 750px; 
-	border-collapse: collapse; 
-	margin: auto;
-	
-	}
+        th { 
+            background: #ff3300; 
+            color: white; 
+            font-weight: bold; 
+            
+            }
 
-/* Zebra striping */
-tr:nth-of-type(odd) { 
-	background: #eee; 
-	}
+        td, th { 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            text-align: left; 
+            font-size: 14px;
+            
+            }
 
-th { 
-	background: #ff3300; 
-	color: white; 
-	font-weight: bold; 
-	
-	}
+        /* 
+        Max width before this PARTICULAR table gets nasty
+        This query will take effect for any screen smaller than 760px
+        and also iPads specifically.
+        */
+        @media 
+        only screen and (max-width: 760px),
+        (min-device-width: 768px) and (max-device-width: 1024px)  {
 
-td, th { 
-	padding: 10px; 
-	border: 1px solid #ccc; 
-	text-align: left; 
-	font-size: 14px;
-	
-	}
+            table { 
+                width: 100%; 
+            }
 
-/* 
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+            /* Force table to not be like tables anymore */
+            table, thead, tbody, th, td, tr { 
+                display: block; 
+            }
+            
+            /* Hide table headers (but not display: none;, for accessibility) */
+            thead tr { 
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            
+            tr { border: 1px solid #ccc; }
+            
+            td { 
+                /* Behave  like a "row" */
+                border: none;
+                border-bottom: 1px solid #eee; 
+                position: relative;
+                padding-left: 50%; 
+            }
 
-	table { 
-	  	width: 100%; 
-	}
+            td:before { 
+                /* Now like a table header */
+                position: absolute;
+                /* Top/left values mimic padding */
+                top: 6px;
+                left: 6px;
+                width: 45%; 
+                padding-right: 10px; 
+                white-space: nowrap;
+                /* Label the data */
+                content: attr(data-column);
 
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
+                color: #000;
+                font-weight: bold;
+            }
 
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-		/* Label the data */
-		content: attr(data-column);
-
-		color: #000;
-		font-weight: bold;
-	}
-
-}
+        }
 
 
 
@@ -170,7 +170,7 @@ only screen and (max-width: 760px),
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                            <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Stores<span class="sr-only"></span></a> </li>
+                            <li class="nav-item"> <a class="nav-link active" href="stores.php">Stores<span class="sr-only"></span></a> </li>
                             
 							<?php
 						if(empty($_SESSION["user_id"]))
@@ -228,23 +228,35 @@ only screen and (max-width: 760px),
                                 </div>
                                 <div class="widget-body">
                                     <ul class="tags">
-                                        <li> <a href="#" class="tag">
-                                    Pizza
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sendwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Sendwich
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Fish 
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Desert
-                                    </a> </li>
-                                        <li> <a href="#" class="tag">
-                                    Salad
+                                    <li> <a href="#" class="tag">
+                                 Vouchers
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Discounts
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Milktea
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Burger
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Delicious
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Fries
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Desserts
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Aesthetics
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Chicken
+                                 </a> </li>
+                                    <li> <a href="#" class="tag">
+                                 Cake
                                     </a> </li>
                                     </ul>
                                 </div>
@@ -357,7 +369,7 @@ only screen and (max-width: 760px),
                 </div>
             </section>
            
-            <!-- start: FOOTER -->
+            <!-- start: FOOTER --><br><br><br><br><br><br><br>
             <footer class="footer-distributed">
 
                 <div class="footer-left">
