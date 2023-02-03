@@ -11,11 +11,15 @@ if(empty($_SESSION['user_id']))  //if usser is not login redirected baack to log
 }
 else
 {
+
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "10";
 ?>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
@@ -383,11 +387,11 @@ else
                     <p class="footer-links">
                         <a href="index.php">Home</a>
                         ·
-                        <a href="#">View Stores</a>
+                        <a href="stores.php">View Stores</a>
                         ·
-                        <a href="#">My Bag</a>
+                        <a href="your_order.php">My Orders</a>
                         ·
-                        <a href="#">Order</a>
+                        <a href="stores.php">Order Now</a>
                     </p>
 
                     <p class="footer-company-name">InstaFood © 2023</p>
