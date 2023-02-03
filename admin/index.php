@@ -111,12 +111,11 @@ if(isset($_POST['submit1'] ))
 
   
 <div class="container">
-  <div class="info"><br><br><br>
-    <h1>Administration </h1>
+  <div class="info"><br><br><br><br><br><br><br>
   </div>
 </div>
 <div class="form">
-  <div class="thumbnail"><img src="images/manager.png"/></div>
+  <div class="thumbnail"><img src="images/management.png"/></div>
   
   <form class="register-form" action="index.php" method="post">
     <input type="text" placeholder="username" name="cr_user"/>
@@ -132,8 +131,8 @@ if(isset($_POST['submit1'] ))
   <form class="login-form" action="index.php" method="post">
     <input type="text" placeholder="username" name="username"/>
     <input type="password" placeholder="password" name="password"/>
-    <input type="submit"  name="submit" value="login" />
-    <p class="message">Don't have an? <a href="#">Create an account</a></p>
+    <input type="submit"  name="submit" value="LOGIN" />
+    <p class="message">Don't have an account yet? <a href="#">Create an account</a></p>
   </form>
   
 </div>

@@ -11,13 +11,12 @@
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   text-align: center;
+  border-radius: 15px;
 }
 .form .thumbnail {
-  background: #EF3B3A;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 30px;
-  padding: 50px 30px;
   border-top-left-radius: 100%;
   border-top-right-radius: 100%;
   border-bottom-left-radius: 100%;
@@ -91,11 +90,13 @@
   z-index: 1;
   max-width: 300px;
   margin: 0 auto;
+  border-radius: 15px;
 }
 .container:before, .container:after {
   content: "";
   display: block;
   clear: both;
+  border-radius: 15px;
 }
 .container .info {
   margin: 50px auto;
