@@ -190,10 +190,10 @@ session_start();
 
                     <div class="footer-icons">
 
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-telegram"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+		        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+			<a href="https://telegram.org"><i class="fa fa-telegram"></i></a>
                     </div>
 
                 </div>
