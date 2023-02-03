@@ -9,6 +9,9 @@ session_start(); //start temp session until logout/browser closed
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="assets/img/web-icon.png">
     <title>InstaFood</title>
@@ -292,10 +295,10 @@ session_start(); //start temp session until logout/browser closed
 
             <p>Contact Us</p>
 
-            <form id="myForm" action="assets/back-end/connect-footer.php" method="post">
+            <form id="myForm" action="connect-footer.php" method="post" >
 
-                <input type="text" name="email" placeholder="Email">
-                <textarea name="message" placeholder="Message"></textarea>
+                <input type="text" name="email" placeholder="Email" required="required">
+                <textarea name="message" placeholder="Message" required="required"></textarea>
                 <button onclick="myFunction()">Send</button>
 
             </form>
@@ -314,6 +317,13 @@ session_start(); //start temp session until logout/browser closed
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
+    <script>
+        function myFunction() {
+        alert("Your Message Has Been Recorded");
+        window.location.reload(true);
+        }
+
+    </script>
 </body>
 
 </html>
