@@ -15,7 +15,7 @@ session_start();
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/web-icon.png">
-    <title>All Stores | Admin
+    <title>All Stores Data - Admin | InstaFood
     </title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -169,16 +169,15 @@ session_start();
                 <!-- Start Page Content -->
                 <div class="row">
                     <div class="col-12">
-						     <div class="card">
+                    <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">All stores data</h4>
+                                <h4 class="card-title">All Stores Data</h4>
                                 <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6>
-								
                                 <div class="table-responsive m-t-40">
                                     <table id="example23" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
                                         <thead>
                                             <tr>
-											 <th>Cat</th>
+											 <th>Category</th>
                                                 <th>Store-Name</th>
                                                 <th>Email</th>
                                                 <th>Phone</th>
