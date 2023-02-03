@@ -74,7 +74,7 @@ if(isset($_POST['submit'] ))
 	mysqli_query($db, $mql);
 			$success = 	'<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-																<strong>Congrass!</strong> New User Added Successfully.</br></div>';
+																<strong>Congratulations!</strong> A New User Added Successfully.</br></div>';
 	
     }
 	}
@@ -249,9 +249,10 @@ if(isset($_POST['submit'] ))
                 <!-- Start Page Content -->
                   
 									
-									<?php  echo var_dump($_POST);
+                            <?php 
 									        echo $error;
-									        echo $success; ?>
+									        echo $success; 
+                            ?>
 									
 									
 								
@@ -356,7 +357,7 @@ if(isset($_POST['submit'] ))
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
+            <footer class="footer"> © 2023 All rights reserved. </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
