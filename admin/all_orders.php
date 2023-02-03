@@ -172,7 +172,7 @@ session_start();
                        
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">All user Orders</h4>
+                                <h4 class="card-title">All Orders</h4>
                              
                                 <div class="table-responsive m-t-40">
                                     <table id="myTable" class="table table-bordered table-striped">
@@ -211,7 +211,7 @@ session_start();
 																					           <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
-																								<td>$'.$rows['price'].'</td>
+																								<td>₱'.$rows['price'].'</td>
 																								<td>'.$rows['address'].'</td>';
 																								?>
 																								<?php 
