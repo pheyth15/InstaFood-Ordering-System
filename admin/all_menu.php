@@ -175,7 +175,7 @@ session_start();
 						
 						     <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">All Menu data</h4>
+                                <h4 class="card-title">All Menu Data</h4>
                                 <h6 class="card-subtitle">Export data to Copy, CSV, Excel, PDF & Print</h6>
 								
                                 <div class="table-responsive m-t-40">
@@ -282,7 +282,7 @@ session_start();
             </div>
             <!-- End Container fluid  -->
             <!-- footer -->
-            <footer class="footer"> © 2018 All rights reserved. </footer>
+            <footer class="footer"> © 2023 All rights reserved. </footer>
             <!-- End footer -->
         </div>
         <!-- End Page wrapper  -->
