@@ -276,7 +276,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
 					    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Add Menu to Restaurant</h4>
+                                <h4 class="m-b-0 text-white">Add Menu to a Store</h4>
                             </div>
                             <div class="card-body">
                                 <form action='' method='post'  enctype="multipart/form-data">
@@ -294,7 +294,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                             <div class="col-md-6">
                                                 <div class="form-group has-danger">
                                                     <label class="control-label">About</label>
-                                                    <input type="text" name="about" class="form-control form-control-danger" placeholder="slogan">
+                                                    <input type="text" name="about" class="form-control form-control-danger" placeholder="Description">
                                                     </div>
                                             </div>
                                             <!--/span-->
@@ -304,7 +304,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="control-label">price </label>
-                                                    <input type="text" name="price" class="form-control" placeholder="$">
+                                                    <input type="text" name="price" class="form-control" placeholder="₱">
                                                    </div>
                                             </div>
                                             <!--/span-->
@@ -330,7 +330,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                                 <div class="form-group">
                                                     <label class="control-label">Select Category</label>
 													<select name="res_name" class="form-control custom-select" data-placeholder="Choose a Category" tabindex="1">
-                                                        <option>--Select Restaurant--</option>
+                                                        <option>--Store--</option>
                                                  <?php $ssql ="select * from restaurant";
 													$res=mysqli_query($db, $ssql); 
 													while($row=mysqli_fetch_array($res))  
