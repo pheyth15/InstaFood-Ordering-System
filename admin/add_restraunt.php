@@ -115,7 +115,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/web-icon.png">
-    <title>Add Restaurant - Admin | InstaFood/title>
+    <title>Add Restaurant - Admin |Instafood </title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -142,7 +142,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <!-- Logo icon -->
                         <b><img src="images/header-logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
@@ -227,7 +227,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                             <ul aria-expanded="false" class="collapse">
 								<li><a href="allrestraunt.php">All Stores</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restraunt.php">Add Restaurant</a></li>
+                                <li><a href="add_restraunt.php">Add Store</a></li>
                                 
                             </ul>
                         </li>
