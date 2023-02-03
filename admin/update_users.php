@@ -236,9 +236,6 @@ if(isset($_POST['submit'] ))
 									<?php  
 									        echo $error;
 									        echo $success; 
-											
-											echo var_dump($_POST);
-											
 											?>
 									
 									
@@ -247,7 +244,7 @@ if(isset($_POST['submit'] ))
 					    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Update Users</h4>
+                                <h4 class="m-b-0 text-white">Update User</h4>
                             </div>
                             <div class="card-body">
 							  <?php $ssql ="select * from users where u_id='$_GET[user_upd]'";
