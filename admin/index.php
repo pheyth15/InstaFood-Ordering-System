@@ -94,8 +94,8 @@ if(isset($_POST['submit1'] ))
 
 <head>
   <meta charset="UTF-8">
-  <title>Flat Login Form</title>
-  
+  <title>Admin | InstaFood</title>
+  <link rel="icon" href="../assets/img/web-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
   <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
