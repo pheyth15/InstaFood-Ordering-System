@@ -192,23 +192,7 @@ session_start();
 												  
                                             </tr>
                                         </thead>
-                                        <tfoot>
-                                            <tr>
-											 <th>Cat</th>
-                                                <th>Store-Name</th>
-                                                <th>Email</th>
-                                                <th>Phone</th>
-                                                <th>Url</th>
-												
-                                                <th>Open Hrs</th>
-                                                <th>Close Hrs</th>
-												<th>Open Days</th>
-												  <th>Address</th>
-												  <th>Store-Image</th>
-												  <th>Date</th>
-												   <th>Action</th>
-                                            </tr>
-                                        </tfoot>
+                                       
                                         <tbody>
 										
                                            
