@@ -107,8 +107,6 @@ else{
                 </div>
             
 			<br>
-			
-				  
             <div class="container m-t-30">
 			<form action="" method="post">
                 <div class="widget clearfix">
