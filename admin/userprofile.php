@@ -41,8 +41,8 @@ window.print();
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <title>Ela - Bootstrap Admin Dashboard Template</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/web-icon.png">
+    <title>User Profile | InstaFood</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -155,7 +155,7 @@ while($row=mysqli_fetch_array($ret2))
   
 		
     <tr>
-      <td colspan="2"><b><?php echo $row['f_name'];?>'s profile</b></td>
+      <td colspan="2"><b><?php echo $row['f_name'];?>'s Profile</b></td>
       
     </tr>
     
@@ -170,11 +170,11 @@ while($row=mysqli_fetch_array($ret2))
     </tr>
 	
 	<tr height="50">
-      <td><b>firstname:</b></td>
+      <td><b>First Name:</b></td>
       <td><?php echo htmlentities($row['f_name']); ?></td>
     </tr>
 	<tr height="50">
-      <td><b>lastname:</b></td>
+      <td><b>Last Name:</b></td>
       <td><?php echo htmlentities($row['l_name']); ?></td>
     </tr>
 	
