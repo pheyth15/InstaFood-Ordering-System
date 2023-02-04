@@ -76,7 +76,7 @@ if(isset($_POST['submit']))   // if button is submit
     </form>
   </div>
   
-  <div class="cta">Not registered yet?<a href="registration.php" style="color:#f30;"> Create an account</a></div>
+  <div class="cta">Not registered yet?<a href="registration2.php" style="color:#f30;"> Create an account</a></div>
 </div>
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
