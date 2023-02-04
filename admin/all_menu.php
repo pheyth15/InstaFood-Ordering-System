@@ -184,7 +184,7 @@ session_start();
                                             <tr>
 											 <th>Restaurant</th>
                                                 <th>Dish-Name</th>
-                                                <th>Slogan</th>
+                                                <th>Description</th>
                                                 <th>Price</th>
                                                 <th>Image</th>
                                                <th>Action</th>
