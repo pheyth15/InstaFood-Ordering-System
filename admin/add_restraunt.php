@@ -276,7 +276,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
 					    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Add Restaurant</h4>
+                                <h4 class="m-b-0 text-white">Add Store</h4>
                             </div>
                             <div class="card-body">
                                 <form action='' method='post'  enctype="multipart/form-data">
@@ -286,8 +286,8 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                         <div class="row p-t-20">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Restaurant Name</label>
-                                                    <input type="text" name="res_name" class="form-control" placeholder="John doe">
+                                                    <label class="control-label">Store Name</label>
+                                                    <input type="text" name="res_name" class="form-control" placeholder="Store Name">
                                                    </div>
                                             </div>
                                             <!--/span-->
