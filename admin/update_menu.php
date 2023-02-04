@@ -64,7 +64,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
 			  
 													$success = 	'<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-																<strong>Record</strong>Updated.
+																<strong>Record</strong> Updated.
 															</div>';
                 
 	
@@ -330,7 +330,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                         </div>
                                     </div>
                                     <div class="form-actions">
-                                        <input type="submit" name="submit" class="btn btn-success" value="save"> 
+                                        <input type="submit" name="submit" class="btn btn-success" value="Save"> 
                                         <a href="dashboard.php" class="btn btn-inverse">Cancel</a>
                                     </div>
                                 </form>
