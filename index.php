@@ -65,7 +65,7 @@ session_start(); //start temp session until logout/browser closed
             <!-- /.navbar -->
         </header>
         <!-- banner part starts -->
-        <section class="hero bg-image" data-image-src="assets/img/res.jpeg">
+        <section class="hero bg-image" data-image-src="assets/img/header-main.png">
             <div class="hero-inner">
                 <div class="container text-center hero-text font-white">
                     <h1>One Click to Snap & Eat!</h1>
