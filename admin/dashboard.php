@@ -42,7 +42,7 @@ else
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="#">
                         <!-- Logo icon -->
                         <b><img src="images/header-logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
