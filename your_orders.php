@@ -85,7 +85,7 @@ else
             }
 
         th { 
-            background: #ff3300; 
+            background: #dd3208; 
             color: white; 
             font-weight: bold; 
             
@@ -203,7 +203,7 @@ else
            
             <!-- end:Top links -->
             <!-- start: Inner page hero -->
-            <div class="inner-page-hero bg-image" data-image-src="assets/img/res.jpeg">
+            <div class="inner-page-hero bg-image" data-image-src="assets/img/header-food.png">
                 <div class="container"> </div>
                 <!-- end:Container -->
             </div>

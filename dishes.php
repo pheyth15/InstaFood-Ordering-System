@@ -82,13 +82,13 @@ include_once 'product-action.php'; //including controller
 									     $rows=mysqli_fetch_array($ress);
 										  
 										  ?>
-            <section class="inner-page-hero bg-image" data-image-src="assets/img/dish.jpeg">
+            <section class="inner-page-hero bg-image" data-image-src="assets/img/header-info2.png">
                 <div class="profile">
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-sm-12  col-md-4 col-lg-4 profile-img">
                                 <div class="image-wrap">
-                                    <figure><?php echo '<img src="admin/Res_img/'.$rows['image'].'" alt="Restaurant logo">'; ?></figure>
+                                    <figure><?php echo '<img src="admin/Res_img/'.$rows['image'].'" alt="Store Logo">'; ?></figure>
                                 </div>
                             </div>
 							

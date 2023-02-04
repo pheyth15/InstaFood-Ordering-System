@@ -69,7 +69,7 @@ session_start();
             </div>
             <!-- end:Top links -->
             <!-- start: Inner page hero -->
-            <div class="inner-page-hero bg-image" data-image-src="assets/img/res.jpeg">
+            <div class="inner-page-hero bg-image" data-image-src="assets/img/header-store.png">
                 <div class="container"> </div>
                 <!-- end:Container -->
             </div>
