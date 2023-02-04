@@ -215,7 +215,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
                               <div class="panel-body"> 
                               InstaFood is one of the leading local food delivery marketplace. Users can conveniently order their favorite meals online and discover food around their local area. 
                               <br><br>
-                              In December 2022, InstagramFood launched in the Philippines with over 10+ partners.
+                              In December 2022, InstaFood launched in the Philippines with over 10+ partners.
                               <br><br>
 
                               InstaFood is a team of problem solvers, designers, thinkers, and tinkers working around the clock to make it the most powerful online food delivery tool on the market today. You should be able to order food easily, quickly, and definitely with a smile on your face!
