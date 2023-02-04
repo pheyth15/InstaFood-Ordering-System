@@ -287,7 +287,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="control-label">Dish Name</label>
-                                                    <input type="text" name="d_name" class="form-control" placeholder="Morzirella">
+                                                    <input type="text" name="d_name" class="form-control" placeholder="Food Name">
                                                    </div>
                                             </div>
                                             <!--/span-->

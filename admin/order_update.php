@@ -136,7 +136,7 @@ td, th {
  
 <table  border="0" cellspacing="0" cellpadding="0">
      <tr >
-      <td><b>form Number</b></td>
+      <td><b>Form Number</b></td>
       <td><?php echo htmlentities($_GET['form_id']); ?></td>
     </tr>
 	<tr>
