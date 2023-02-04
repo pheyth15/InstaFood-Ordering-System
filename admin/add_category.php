@@ -225,7 +225,7 @@ if(isset($_POST['submit'] ))
 					    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             <div class="card-header">
-                                <h4 class="m-b-0 text-white">Add Restaurant Category</h4>
+                                <h4 class="m-b-0 text-white">Add Store Category</h4>
                             </div>
                             <div class="card-body">
                                 <form action='' method='post' >
@@ -243,7 +243,7 @@ if(isset($_POST['submit'] ))
                                             
                                     </div>
                                     <div class="form-actions">
-                                        <input type="submit" name="submit" class="btn btn-success" value="save"> 
+                                        <input type="submit" name="submit" class="btn btn-success" value="Save"> 
                                         <a href="dashboard.php" class="btn btn-inverse">Cancel</a>
                                     </div>
                                 </form>
