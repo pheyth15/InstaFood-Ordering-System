@@ -318,7 +318,7 @@ else
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-																				<button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On a Way!</button>
+																				<button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On the Way!</button>
 																			<?php
 																				}
 																			if($status=="closed")
@@ -332,7 +332,7 @@ else
 																			if($status=="rejected")
 																				{
 																			?>
-																			 <button type="button" class="btn btn-danger"> <i class="fa fa-close"></i>cancelled</button>
+																			 <button type="button" class="btn btn-danger"> <i class="fa fa-close"></i>Cancelled</button>
 																			<?php 
 																			} 
 																			?>
