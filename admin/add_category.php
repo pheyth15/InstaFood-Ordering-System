@@ -36,7 +36,7 @@ if(isset($_POST['submit'] ))
 	mysqli_query($db, $mql);
 			$success = 	'<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-																<strong>Congrass!</strong> New Category Added Successfully.</br></div>';
+																<strong>Congratulations!</strong> New Category Added Successfully.</br></div>';
 	
     }
 	}
