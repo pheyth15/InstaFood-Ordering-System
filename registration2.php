@@ -307,6 +307,13 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/headroom.js"></script>
     <script src="js/foodpicky.min.js"></script>
+    <script>
+        function myFunction() {
+        alert("Your Message Has Been Recorded");
+        window.location.reload(true);
+        }
+
+    </script>
 </body>
 
 </html>
