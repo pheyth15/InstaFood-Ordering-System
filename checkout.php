@@ -204,7 +204,7 @@ else{
 
                 <p>Contact Us</p>
 
-                <form id="myForm" action="assets/back-end/connect-footer.php" method="post">
+                <form id="myForm" action="connect-footer.php" method="post">
 
                     <input type="text" name="email" placeholder="Email">
                     <textarea name="message" placeholder="Message"></textarea>

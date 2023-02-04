@@ -283,7 +283,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 
             <p>Contact Us</p>
 
-            <form id="myForm" action="assets/back-end/connect-footer.php" method="post">
+            <form id="myForm" action="connect-footer.php" method="post">
 
                 <input type="text" name="email" placeholder="Email" id="contact">
                 <textarea name="message" placeholder="Message"></textarea>
