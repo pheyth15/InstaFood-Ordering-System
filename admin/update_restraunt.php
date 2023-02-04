@@ -144,10 +144,10 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
                         <!-- Logo icon -->
-                        <b><img src="images/logo.png" alt="homepage" class="dark-logo" /></b>
+                        <b><img src="images/header-logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span><img src="images/logo-text.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="images/header-text.png" alt="homepage" class="dark-logo" /></span>
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -171,7 +171,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                         
                         <!-- Profile -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/users/5.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/bookingSystem/3.png" alt="admin" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
                                <li><a href="logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
@@ -198,11 +198,11 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                 
                             </ul>
                         </li>
-                        <li class="nav-label">Log</li>
+                        <li class="nav-label">System Log</li>
                         <li> <a class="has-arrow  " href="#" aria-expanded="false">  <span><i class="fa fa-user f-s-20 "></i></span><span class="hide-menu">Users</span></a>
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="allusers.php">All Users</a></li>
-								<li><a href="add_users.php">Add Users</a></li>
+								<li><a href="add_users.php">Add User</a></li>
 								
                                
                             </ul>
@@ -211,13 +211,13 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                             <ul aria-expanded="false" class="collapse">
 								<li><a href="allrestraunt.php">All Stores</a></li>
 								<li><a href="add_category.php">Add Category</a></li>
-                                <li><a href="add_restraunt.php">Add Restaurant</a></li>
+                                <li><a href="add_restraunt.php">Add Store</a></li>
                                 
                             </ul>
                         </li>
                       <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-cutlery" aria-hidden="true"></i><span class="hide-menu">Menu</span></a>
                             <ul aria-expanded="false" class="collapse">
-								<li><a href="all_menu.php">All Menues</a></li>
+								<li><a href="all_menu.php">All Menu</a></li>
 								<li><a href="add_menu.php">Add Menu</a></li>
                               
                                 
@@ -265,7 +265,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
 					    <div class="col-lg-12">
                         <div class="card card-outline-primary">
                             
-                                <h4 class="m-b-0 ">Update Restaurant</h4>
+                                <h4 class="m-b-0 ">Update Store</h4>
                             
                             <div class="card-body">
                                 <form action='' method='post'  enctype="multipart/form-data">
@@ -277,7 +277,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                         <div class="row p-t-20">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <label class="control-label">Restaurant Name</label>
+                                                    <label class="control-label">Store Name</label>
                                                     <input type="text" name="res_name" value="<?php echo $row['title'];  ?>" class="form-control" placeholder="John doe">
                                                    </div>
                                             </div>
@@ -301,7 +301,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                                             <!--/span-->
                                             <div class="col-md-6">
                                                 <div class="form-group has-danger">
-                                                    <label class="control-label">website URL</label>
+                                                    <label class="control-label">Website URL</label>
                                                     <input type="text" name="url" class="form-control form-control-danger" value="<?php echo $row['url'];  ?>" placeholder="http://example.com">
                                                     </div>
                                             </div>
