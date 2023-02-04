@@ -166,7 +166,7 @@ $item_total += ($item["price"]*$item["quantity"]); // calculating current price 
                                     <div class="price-wrap text-xs-center">
                                         <p>TOTAL AMOUNT</p>
                                         <h3 class="value"><strong><?php echo "₱".$item_total; ?></strong></h3>
-                                        <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg">Check Out</a>
+                                        <a href="checkout.php?res_id=<?php echo $_GET['res_id'];?>&action=check"  class="btn theme-btn btn-lg1">Check Out</a>
                                     </div>
                                 </div>
 								

@@ -211,9 +211,9 @@ hr {
 }
 
 .theme-btn {
-    background-color: #f30;
-    border-color: #f30;
-    color: #fff
+    background-color: rgb(221, 50, 8);
+    border-color: rgb(221, 50, 8);
+    color: #fff;
 }
 
 .theme-btn-dash {
@@ -222,9 +222,21 @@ hr {
     color: #f30
 }
 
+.theme-btn.btn-lg
+{
+    background-color: rgb(221, 50, 8);
+    color: #fff;
+    border: 1px solid rgb(221, 50, 8);
+    border-radius: 25px;
+}
+
+.theme-btn.btn-lg1{
+    background-color: rgb(221, 50, 8);
+    color: #fff;
+    border: 1px solid rgb(221, 50, 8);
+}
 .theme-btn-dash:hover,
-.theme-btn,
-.theme-btn.btn-lg:hover,
+.theme-btn:hover,.theme-btn.btn-lg:hover,.theme-btn.btn-lg1:hover,
 .btn-secondary:hover {
     background-color: #f30;
     color: #fff;
@@ -241,7 +253,7 @@ hr {
 }
 
 .primary-color {
-    color: #f30
+    color: rgb(243, 82, 42)
 }
 
 
