@@ -270,7 +270,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 																			if($status=="rejected")
 																				{
 																			?>
-																			<td>  <center><button type="button" class="btn btn-danger"> <i class="fa fa-close"></i>cancelled</button> </center></td> 
+																			<td>  <center><button type="button" class="btn btn-danger"> <i class="fa fa-close"></i>Cancelled</button> </center></td> 
 																			<?php 
 																			} 
 																			?>
