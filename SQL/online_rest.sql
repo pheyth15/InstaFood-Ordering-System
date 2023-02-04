@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 04, 2023 at 11:56 AM
+-- Generation Time: Feb 04, 2023 at 02:35 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -95,7 +95,6 @@ INSERT INTO `dishes` (`d_id`, `rs_id`, `title`, `slogan`, `price`, `img`) VALUES
 (27, 54, 'Leche Flan Milktea', 'Leche Flan Flavored Milktea', '39.00', '63de27696bdc7.jpg'),
 (28, 54, 'Matcha Milktea', 'Matcha Flavored Milktea', '39.00', '63de27aac99f9.jpg'),
 (29, 54, 'Okinawa Milktea', 'Okinawa Flavored Milktea', '39.00', '63de27bdc9c89.jpg'),
-(30, 54, 'Thai Milktea', 'Thai Flavored Milktea', '39.00', '63de27c9cd81a.jpg'),
 (31, 54, 'Thai Milktea', 'Thai Flavored Milktea', '39.00', '63de27ef6672a.jpg'),
 (32, 54, 'Wintermelon Milktea', 'Wintermelon Flavored Milktea', '39.00', '63de2841ac47b.jpg'),
 (33, 54, 'Honey Peach Fruit Tea', 'Honey Peach Flavored Fruit Tea', '39.00', '63de2862d3a44.jpg'),
@@ -254,6 +253,13 @@ CREATE TABLE `tb_form` (
   `email` varchar(50) NOT NULL,
   `message` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tb_form`
+--
+
+INSERT INTO `tb_form` (`email`, `message`) VALUES
+('', '');
 
 -- --------------------------------------------------------
 
