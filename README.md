@@ -5,6 +5,6 @@ In compliance to DCIT24 - Information Technology
 
 ### Preview
 #### Homepage
-[assets/img/preview/preview-home.jpg](https://github.com/pheyth15/InstaFood-Ordering-System/blob/6da0bc100861acfe1e0cf845ab4545e296346693/assets/img/preview/preview-home.jpg)
+[![Image](preview-home.jpg)](https://github.com/pheyth15/InstaFood-Ordering-System/blob/6da0bc100861acfe1e0cf845ab4545e296346693/assets/img/preview/preview-home.jpg)
 
 
