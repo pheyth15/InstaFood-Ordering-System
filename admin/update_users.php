@@ -4,7 +4,7 @@
 
 
 session_start();
-error_reporting(0);
+error_reporting(1);
 include("../connection/connect.php");
 
 if(isset($_POST['submit'] ))
@@ -53,8 +53,8 @@ if(isset($_POST['submit'] ))
 	else{
        
 	
-	$mql = "update users set username='$_POST[uname]', f_name='$_POST[fname]', l_name='$_POST[lname]',email='$_POST[email]',phone='$_POST[phone]',password='".md5($_POST[password])."' where u_id='$_GET[user_upd]' ";
-	mysqli_query($db, $mql);
+	$sql = "update users set username='$_POST[uname]', f_name='$_POST[fname]', l_name='$_POST[lname]',email='$_POST[email]', phone='$_POST[phone]',password='".md5($_POST['password'])."' where u_id='$_GET[user_upd]' ";
+	mysqli_query($db, $sql);
 			$success = 	'<div class="alert alert-success alert-dismissible fade show">
 																<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 																<strong>User Updated!</strong></div>';
