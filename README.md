@@ -31,7 +31,7 @@
 - AJAX
 - JQUERY
 
-### Usage
+## Usage
 #### Requires:
 - Xamp/Wamp/Mamp/Lamp
 
