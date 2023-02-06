@@ -53,3 +53,6 @@ Default Admin Account:
 
 >Note: Make sure that the XAMP is turned on when you are using the system
 
+## Top Contributors
+[![Profile images of all the contributors](https://contrib.rocks/image?repo=pheyth15/instafood-ordering-system)](https://github.com/pheyth15/InstaFood-Ordering-System/graphs/contributors)
+
