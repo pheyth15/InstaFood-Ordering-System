@@ -1,7 +1,8 @@
 # InstaFood Online Ordering System
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=pheyth15_InstaFood-Ordering-System&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=pheyth15_InstaFood-Ordering-System)
 
-In compliance to DCIT24 - Information Technology
+**_In compliance to DCIT24 - Information Technology_**
+
 
 ## Co-Authors
 - [izana92](https://www.github.com/izana92)
